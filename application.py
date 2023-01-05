@@ -1,4 +1,4 @@
-# Importing flask module in the project is mandatory
+# Importing flask module in the project is mandatory. file renamed
 # An object of Flask class is our WSGI application.
 from flask import Flask
  
