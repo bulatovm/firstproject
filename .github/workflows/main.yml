@@ -8,6 +8,9 @@ env:
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
     
 jobs:
   my_ci_part:
@@ -33,6 +36,8 @@ jobs:
       
     - name: print happy message for CI
       run : echo "CI Pipeline part finished successfully"
+      
+    
       
       
       
